@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\University Files\BayanAboalrob.ComputerSystemEngineering\Trainings\FTS ASP.NET\C#\TASKS\ProductInventoryManagment\ProductInventory\bin\Debug\net6.0\ProductInventory.exe
+C:\Users\HP\Desktop\University Files\BayanAboalrob.ComputerSystemEngineering\Trainings\FTS ASP.NET\C#\TASKS\ProductInventoryManagment\ProductInventory\bin\Debug\net6.0\ProductInventory.deps.json
+C:\Users\HP\Desktop\University Files\BayanAboalrob.ComputerSystemEngineering\Trainings\FTS ASP.NET\C#\TASKS\ProductInventoryManagment\ProductInventory\bin\Debug\net6.0\ProductInventory.runtimeconfig.json
+C:\Users\HP\Desktop\University Files\BayanAboalrob.ComputerSystemEngineering\Trainings\FTS ASP.NET\C#\TASKS\ProductInventoryManagment\ProductInventory\bin\Debug\net6.0\ProductInventory.dll
+C:\Users\HP\Desktop\University Files\BayanAboalrob.ComputerSystemEngineering\Trainings\FTS ASP.NET\C#\TASKS\ProductInventoryManagment\ProductInventory\bin\Debug\net6.0\ProductInventory.pdb
+C:\Users\HP\Desktop\University Files\BayanAboalrob.ComputerSystemEngineering\Trainings\FTS ASP.NET\C#\TASKS\ProductInventoryManagment\ProductInventory\obj\Debug\net6.0\ProductInventory.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\University Files\BayanAboalrob.ComputerSystemEngineering\Trainings\FTS ASP.NET\C#\TASKS\ProductInventoryManagment\ProductInventory\obj\Debug\net6.0\ProductInventory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\University Files\BayanAboalrob.ComputerSystemEngineering\Trainings\FTS ASP.NET\C#\TASKS\ProductInventoryManagment\ProductInventory\obj\Debug\net6.0\ProductInventory.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\University Files\BayanAboalrob.ComputerSystemEngineering\Trainings\FTS ASP.NET\C#\TASKS\ProductInventoryManagment\ProductInventory\obj\Debug\net6.0\ProductInventory.AssemblyInfo.cs
+C:\Users\HP\Desktop\University Files\BayanAboalrob.ComputerSystemEngineering\Trainings\FTS ASP.NET\C#\TASKS\ProductInventoryManagment\ProductInventory\obj\Debug\net6.0\ProductInventory.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\University Files\BayanAboalrob.ComputerSystemEngineering\Trainings\FTS ASP.NET\C#\TASKS\ProductInventoryManagment\ProductInventory\obj\Debug\net6.0\ProductInventory.dll
+C:\Users\HP\Desktop\University Files\BayanAboalrob.ComputerSystemEngineering\Trainings\FTS ASP.NET\C#\TASKS\ProductInventoryManagment\ProductInventory\obj\Debug\net6.0\refint\ProductInventory.dll
+C:\Users\HP\Desktop\University Files\BayanAboalrob.ComputerSystemEngineering\Trainings\FTS ASP.NET\C#\TASKS\ProductInventoryManagment\ProductInventory\obj\Debug\net6.0\ProductInventory.pdb
+C:\Users\HP\Desktop\University Files\BayanAboalrob.ComputerSystemEngineering\Trainings\FTS ASP.NET\C#\TASKS\ProductInventoryManagment\ProductInventory\obj\Debug\net6.0\ProductInventory.genruntimeconfig.cache
+C:\Users\HP\Desktop\University Files\BayanAboalrob.ComputerSystemEngineering\Trainings\FTS ASP.NET\C#\TASKS\ProductInventoryManagment\ProductInventory\obj\Debug\net6.0\ref\ProductInventory.dll
