@@ -76,6 +76,7 @@ namespace ProductInventory
                         break;
                     case 4:
                         Console.WriteLine("Delete A Product");
+                        ProductInventory.DeleteProduct(Inventory);
                         break;
                     case 5:
                         Console.WriteLine("Search For A Product");

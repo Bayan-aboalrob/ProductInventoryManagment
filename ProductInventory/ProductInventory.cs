@@ -37,9 +37,20 @@ namespace ProductInventory
                 Console.WriteLine("Invalid quantity. Please enter a valid number:");
             }
 
-            inventory.products.Add(new Product(name, price, quantity));
+            Product P = inventory.GetProducts().Find(prod => prod.Name.ToLower() == name.ToLower());
+            if(P != null)
+            {
+                P.Quantity += quantity;
+                Console.WriteLine($"{P.Name} quantity is updated successfully");
+            }
+            else
+            {
+                inventory.products.Add(new Product(name, price, quantity));
+                Console.WriteLine("Product added successfully !");
+            }
+        
 
-            Console.WriteLine("Product added successfully !");
+           
         }
         //Edit method for viewing a product modification options
 
@@ -127,6 +138,31 @@ namespace ProductInventory
             {
                 Console.WriteLine(p);
             }
+        }
+
+        // delete a product
+
+        public static void DeleteProduct(ProductInventory inventory)
+        {
+            Console.WriteLine("Enter the name of the product to delete:");
+            string name = Console.ReadLine();
+
+            if (string.IsNullOrEmpty(name))
+            {
+                Console.WriteLine("Invalid product name.");
+                return;
+            }
+            Product product = inventory.GetProducts().Find(p => p.Name.ToLower() == name.ToLower());
+            if (product != null)
+            {
+                inventory.products.Remove(product);
+                Console.WriteLine($"{product.Name} is deleted successfully");
+            }
+            else
+            {
+                Console.WriteLine("The product doesn't exist  in the inventory");
+            }
+
         }
 
 
