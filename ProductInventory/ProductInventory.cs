@@ -106,6 +106,28 @@ namespace ProductInventory
                 Console.WriteLine("Product not found.");
             }
         }
+        // View all product details:
+
+        public static void ViewInventory(ProductInventory inventory)
+        {
+            if (inventory == null)
+            {
+                Console.WriteLine("Inventory is null.");
+                return;
+            }
+
+            if (inventory.products.Count == 0)
+            {
+                Console.WriteLine("Inventory is empty.");
+                return;
+            }
+
+            Console.WriteLine("Inventory:");
+            foreach (Product p in inventory.products)
+            {
+                Console.WriteLine(p);
+            }
+        }
 
 
     }

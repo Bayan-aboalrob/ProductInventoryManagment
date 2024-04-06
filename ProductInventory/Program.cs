@@ -67,6 +67,7 @@ namespace ProductInventory
                         break;
                     case 2:
                         Console.WriteLine("View Inventory");
+                        ProductInventory.ViewInventory(Inventory);
                         break;
                     case 3:
                         ProductInventory.EditProduct(Inventory);
