@@ -80,10 +80,11 @@ namespace ProductInventory
                         break;
                     case 5:
                         Console.WriteLine("Search For A Product");
+                        ProductInventory.SearchProductByName(Inventory);
                         break;
                     case 6:
                         Console.WriteLine("Exiting...");
-                        break;
+                        return;
                     default:
                         Console.WriteLine("Invalid option. Please choose a number between 1 and 6.");
                         break;

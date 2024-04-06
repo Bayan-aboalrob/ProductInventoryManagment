@@ -140,7 +140,7 @@ namespace ProductInventory
             }
         }
 
-        // delete a product
+        // Delete a product Method
 
         public static void DeleteProduct(ProductInventory inventory)
         {
@@ -165,6 +165,29 @@ namespace ProductInventory
 
         }
 
+
+        // This method is used for searching for a product in the inventory, if it exits it prints all its details
+        //  else it prints "this product doesn't exist in the inventory"
+        public static void SearchProductByName(ProductInventory inventory)
+        {
+            string name = Console.ReadLine();
+
+            if (string.IsNullOrEmpty(name))
+            {
+                Console.WriteLine("Invalid product name.");
+                return;
+            }
+            Product product = inventory.GetProducts().Find(p => p.Name.ToLower() == name.ToLower());
+            if (product != null)
+            {
+                Console.WriteLine("Here is the info of the product you are searching about");
+                Console.WriteLine($"{product}");
+            }
+            else
+            {
+                Console.WriteLine("The product doesn't exist  in the inventory");
+            }
+        }
 
     }
 
